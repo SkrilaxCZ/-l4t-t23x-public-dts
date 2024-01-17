@@ -1,7 +1,7 @@
 /*
  * SPDX-License-Identifier: BSD-2-Clause
  *
- * Copyright (c) 2021-2023, NVIDIA CORPORATION. All rights reserved.
+ * SPDX-FileCopyrightText: Copyright (c) 2021-2024, NVIDIA CORPORATION. All rights reserved.
  */
 
 /dts-v1/;
@@ -170,6 +170,12 @@
 			qspi0-t234 {
 				base-address = <0x00000000 0x03270000>;
 				pages-count = <0x10>;
+				attributes = <0x3>; /* read-write */
+			};
+
+			scratch-t234 {
+				base-address = <0x00000000 0x0c390000>;
+				pages-count = <0x2>;
 				attributes = <0x3>; /* read-write */
 			};
 		};
