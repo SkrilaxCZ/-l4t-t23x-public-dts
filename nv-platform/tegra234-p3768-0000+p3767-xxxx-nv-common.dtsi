@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-2.0-only
-// SPDX-FileCopyrightText: Copyright (c) 2023, NVIDIA CORPORATION & AFFILIATES.  All rights reserved.
+// SPDX-FileCopyrightText: Copyright (c) 2023-2024, NVIDIA CORPORATION & AFFILIATES.  All rights reserved.
 
 #include "nv-soc/tegra234-overlay.dtsi"
 #include "nv-soc/tegra234-soc-thermal.dtsi"
@@ -14,6 +14,11 @@
 #include <dt-bindings/gpio/tegra234-gpio.h>
 
 / {
+	aliases {
+		serial1 = &uarta;
+		serial2 = &uarte;
+	};
+
 	bpmp {
 		i2c {
 			vrs@3c {
@@ -96,6 +101,18 @@
 					status = "okay";
 				};
 			};
+		};
+
+		serial@3100000 {
+			compatible = "nvidia,tegra194-hsuart";
+			reset-names = "serial";
+			status = "okay";
+		};
+
+		serial@3140000 {
+			compatible = "nvidia,tegra194-hsuart";
+			reset-names = "serial";
+			status = "okay";
 		};
 
 		i2c@3180000 {
