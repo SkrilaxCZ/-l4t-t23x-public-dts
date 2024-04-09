@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-2.0
-// SPDX-FileCopyrightText: Copyright (c) 2023, NVIDIA CORPORATION & AFFILIATES.  All rights reserved.
+// SPDX-FileCopyrightText: Copyright (c) 2023-2024, NVIDIA CORPORATION & AFFILIATES.  All rights reserved.
 
 #include "nv-soc/tegra234-soc-safetyservice-fsicom.dtsi"
 #include <dt-bindings/interrupt-controller/arm-gic.h>
@@ -122,10 +122,6 @@
 					cooling-device = <&ga10b 0 0>;
 				};
 
-				map-hot-surface-alert {
-					cooling-device = <&hot_surface_alert 0 0>;
-				};
-
 				map-throttle-alert {
 					cooling-device = <&cpu_throttle_alert 0 0>;
 				};
@@ -142,10 +138,6 @@
 
 				map-devfreq {
 					cooling-device = <&ga10b 0 0>;
-				};
-
-				map-hot-surface-alert {
-					cooling-device = <&hot_surface_alert 0 0>;
 				};
 
 				map-throttle-alert {
@@ -166,10 +158,6 @@
 					cooling-device = <&ga10b 0 0>;
 				};
 
-				map-hot-surface-alert {
-					cooling-device = <&hot_surface_alert 0 0>;
-				};
-
 				map-throttle-alert {
 					cooling-device = <&cv0_throttle_alert 0 0>;
 				};
@@ -186,10 +174,6 @@
 
 				map-devfreq {
 					cooling-device = <&ga10b 0 0>;
-				};
-
-				map-hot-surface-alert {
-					cooling-device = <&hot_surface_alert 0 0>;
 				};
 
 				map-throttle-alert {
@@ -210,10 +194,6 @@
 					cooling-device = <&ga10b 0 0>;
 				};
 
-				map-hot-surface-alert {
-					cooling-device = <&hot_surface_alert 0 0>;
-				};
-
 				map-throttle-alert {
 					cooling-device = <&cv2_throttle_alert 0 0>;
 				};
@@ -230,10 +210,6 @@
 
 				map-devfreq {
 					cooling-device = <&ga10b 0 0>;
-				};
-
-				map-hot-surface-alert {
-					cooling-device = <&hot_surface_alert 0 0>;
 				};
 
 				map-throttle-alert {
@@ -254,10 +230,6 @@
 					cooling-device = <&ga10b 0 0>;
 				};
 
-				map-hot-surface-alert {
-					cooling-device = <&hot_surface_alert 0 0>;
-				};
-
 				map-throttle-alert {
 					cooling-device = <&soc1_throttle_alert 0 0>;
 				};
@@ -274,10 +246,6 @@
 
 				map-devfreq {
 					cooling-device = <&ga10b 0 0>;
-				};
-
-				map-hot-surface-alert {
-					cooling-device = <&hot_surface_alert 0 0>;
 				};
 
 				map-throttle-alert {
