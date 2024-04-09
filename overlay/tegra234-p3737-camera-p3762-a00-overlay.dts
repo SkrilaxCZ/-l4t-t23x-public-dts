@@ -177,7 +177,7 @@
 								       <&bpmp TEGRA234_CLK_EXTPERIPH1>;
 								clock-names = "extperiph1", "pllp_grtba";
 								mclk = "extperiph1";
-								channel = "c";
+								channel = "a";
 								has-eeprom;
 								eeprom-addr = <0x40>;
 								reset-gpios = <&gpio CAM0_RST_L GPIO_ACTIVE_HIGH>;
@@ -215,7 +215,7 @@
 								       <&bpmp TEGRA234_CLK_EXTPERIPH1>;
 								clock-names = "extperiph1", "pllp_grtba";
 								mclk = "extperiph1";
-								channel = "c";
+								channel = "a";
 								has-eeprom;
 								eeprom-addr = <0x15>;
 								reset-gpios = <&gpio CAM0_RST_L GPIO_ACTIVE_HIGH>;
@@ -247,7 +247,7 @@
 								       <&bpmp TEGRA234_CLK_EXTPERIPH1>;
 								clock-names = "extperiph1", "pllp_grtba";
 								mclk = "extperiph1";
-								channel = "c";
+								channel = "a";
 								has-eeprom;
 								eeprom-addr = <0x44>;
 								reset-gpios = <&gpio CAM0_RST_L GPIO_ACTIVE_HIGH>;
@@ -279,7 +279,7 @@
 								       <&bpmp TEGRA234_CLK_EXTPERIPH1>;
 								clock-names = "extperiph1", "pllp_grtba";
 								mclk = "extperiph1";
-								channel = "c";
+								channel = "a";
 								has-eeprom;
 								eeprom-addr = <0x46>;
 								reset-gpios = <&gpio CAM0_RST_L GPIO_ACTIVE_HIGH>;
