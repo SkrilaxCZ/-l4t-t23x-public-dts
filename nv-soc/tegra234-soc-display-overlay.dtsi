@@ -176,7 +176,6 @@
 			"dpaux0_reset",
 			"dsi_core_reset",
 			"mipi_cal_reset";
-		hdcp_enabled;
 		status = "disabled";
 		memory-region = <&fb0_reserved>;
 		nvidia,disp-sw-soc-chip-id = <0x2350>;
