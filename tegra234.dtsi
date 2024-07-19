@@ -4315,12 +4315,6 @@
 			status = "okay";
 		};
 
-		smmu_test {
-			compatible = "nvidia,smmu_test";
-			iommus = <&smmu_niso0 TEGRA234_SID_SMMU_TEST>;
-			status = "okay";
-		};
-
 		cbb-fabric@13a00000 {
 			compatible = "nvidia,tegra234-cbb-fabric";
 			reg = <0x0 0x13a00000 0x0 0x400000>;
