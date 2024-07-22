@@ -652,6 +652,12 @@
 			cap-sd-highspeed;
 			cap-mmc-highspeed;
 		};
+
+		smmu_test {
+			compatible = "nvidia,smmu_test";
+			iommus = <&smmu_niso0 TEGRA234_SID_SMMU_TEST>;
+			status = "okay";
+		};
 	};
 
 	cpus {
