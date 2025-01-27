@@ -10,6 +10,3 @@
 	model = "NVIDIA Jetson Orin Nano Engineering Reference Developer Kit Super";
 };
 
-/delete-node/ &{/opp-table-cluster0/opp-1510400000};
-/delete-node/ &{/opp-table-cluster1/opp-1510400000};
-/delete-node/ &{/opp-table-cluster2/opp-1510400000};
